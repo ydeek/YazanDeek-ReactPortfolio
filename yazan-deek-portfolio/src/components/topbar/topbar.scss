@@ -1,0 +1,38 @@
+@import "../../global.scss";
+
+.topbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    color:$mainColor;
+    position: fixed;
+    top: 0;
+    z-index:3;
+
+
+    .wrapper{
+        padding: 10px 30px; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    .left{
+
+        .logo{
+            
+           a span{
+                color: darkgray;
+            }
+            font-size: 35px;
+            font-weight: 500;
+            text-decoration: none;
+            color:inherit;
+            margin-right: 40px;
+          
+        }
+    }
+
+    }
+
+
+}
