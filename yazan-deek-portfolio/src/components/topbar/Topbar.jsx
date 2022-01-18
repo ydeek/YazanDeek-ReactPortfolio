@@ -1,23 +1,34 @@
-import "./topbar.scss"
-import from { Person, Mail } from "@materail-ui/icons"
+import "./topbar.scss";
 
 
-function Topbar() {
+export default function Topbar() {
     return (
-        <div className="topbar">
+        <div className="topbar active">
             <div className="wrapper">
                 <div className="left">
-                    < a href="#intro" className="logo">YAZAN DEEK.</a> </div>
+                    <a href="#intro" className="logo">
+                        YAZAN DEEK
+                    </a>
+                    <div className="itemContainer">
 
-                <div className="itemContainer">
-                    <Person />
-                    <span>+44 425 66 7</span>
+                        <span>+44 924 12 74</span>
+                    </div>
+                    <div className="itemContainer">
+
+                        <span>info@yazandeek.com</span>
+                    </div>
                 </div>
+                <div className="right">
+                    <div className="hamburger">
+                        <span className="line1"></span>
+                        <span className="line2"></span>
+                        <span className="line3"></span>
 
-                <div className="right"></div>
+                    </div>
+
+                </div>
             </div>
         </div>
-    )
-}
 
-export default Topbar
+    );
+}
