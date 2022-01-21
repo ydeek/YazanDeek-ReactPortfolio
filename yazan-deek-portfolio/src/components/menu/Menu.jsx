@@ -30,7 +30,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
 
 
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#contact">Contact</a>
+                    <a href="#intro">Contact</a>
                 </li>
 
 
